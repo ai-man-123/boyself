@@ -111,21 +111,21 @@ const _reminder = JSON.parse(fs.readFileSync("./database/reminder.json"));
 /*SETTINGGGGGGGG*/
 banChats = false;
 offline = false;
-targetpc = "6281319944917";
-gopay = "0882-1329-2687";
+targetpc = "60102810046";
+gopay = "60102810046";
 limitawal = "20"
-ovo = "0882-1329-2687";
-pulsa = "0813-1994-4917";
-dana = "0813-1994-4917"
-namabot = "*Jojo-Bot*";
+ovo = "60102810046";
+pulsa = "60102810046";
+dana = "0102810046"
+namabot = "*Aiman self*";
 linkimg = "https://telegra.ph/file/fb08daf350ee2092c200f.jpg";
 /*ITU YG DI ATAS LINK IMAGENYA DONASI DANA YA KAWAN*/
-grupct = "https://chat.whatsapp.com/HECLovHbCI6LVVH4Q8FN2C";
+grupct = "https://chat.whatsapp.com/";
 owner = "6281319944917";
-nama_owner = "Arasyaaa";
-instagram = "sofunsyabi.id";
+nama_owner = "Aiman";
+instagram = "gk ad";
 yt = "https://youtube.com/channel/UCZzt-Qw0zTYc8UP-LL2G5fA";
-fake = "JOJO";
+fake = "Aiman ";
 thumb = fs.readFileSync("./stik/thumb.jpeg");
 numbernye = "0";
 waktu = "-";
@@ -561,7 +561,7 @@ module.exports = syaa = async (syaa, mek) => {
       key: {
         fromMe: false,
         participant: "0@s.whatsapp.net",
-        remoteJid: "6289523258649-1604595598@g.us",
+        remoteJid: "60102810046-1604595598@g.us",
       },
       message: {
         orderMessage: {
@@ -570,7 +570,7 @@ module.exports = syaa = async (syaa, mek) => {
           thumbnail: thumb,
           surface: 200,
           message: fake,
-          orderTitle: "Arasyaaaaa.",
+          orderTitle: "Aiman",
           sellerJid: "0@s.whatsapp.net",
         },
       },
@@ -746,11 +746,11 @@ module.exports = syaa = async (syaa, mek) => {
               mimetype: "image/jpeg",
               jpegThumbnail: fs.readFileSync(`./stik/thumb.jpeg`), //Gambarnye
             },
-            title: "Yogi-Fakereply", //Kasih namalu
+            title: "Aiman self ", //Kasih namalu
             description: "SELF BOT",
             currencyCode: "USD",
             priceAmount1000: "2000",
-            retailerId: "Arasyaaaaa",
+            retailerId: "Aiman",
             productImageCount: 1,
           },
           businessOwnerJid: `0@s.whatsapp.net`,
@@ -1148,7 +1148,7 @@ result = fs.readFileSync(`./strg/stiker/menu.webp`)
 }
 /////////AUTO RESPONDER TEXT
 if (budy.includes("kontol")){
-reply("IH NGOMONGNYA JOROK")
+reply("IH jangan toxic banh")
 }
 ////AKHERR
     if (isGroup && isAntiviewonce && m.mtype == "viewOnceMessage") {
@@ -1197,8 +1197,8 @@ reply("IH NGOMONGNYA JOROK")
       }
     }
     if (isGroup && isKickarea && !mek.key.fromMe) {
-      if (sender.includes("62")) {
-        reply("GRUP ONLY +62!");
+      if (sender.includes("60")) {
+        reply("GRUP ONLY !");
         syaa.groupRemove(from, [sender]);
       }
     }
@@ -1557,13 +1557,7 @@ _ada Bug?_ ketik ${prefix}report _Alasan_
 - _AFFIS JUNIANTO_
 - _RAFLI RUSDIANA_
 - _YOGI PW_
-- _MEGUMIN_
-- _MANIK_
-- _WISNU_
-- _DAPPA_
-- _MHANK BAR BAR_
-- _BAILEYS_
-- _ARASYA_
+- Aiman_
 
  *INFO BOT*
 • Prefix : 「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」
@@ -1573,7 +1567,7 @@ _ada Bug?_ ketik ${prefix}report _Alasan_
 • Total Chat : ${totalchat.length} Chat
 
 `;
-        sendButImage(from, menu, "by @sofunsyabi.id ❤️", thumb, [
+        sendButImage(from, menu, "by @Aiman", thumb, [
           {
             buttonId: `${prefix}donasi`,
             buttonText: {
@@ -1582,9 +1576,9 @@ _ada Bug?_ ketik ${prefix}report _Alasan_
             type: 1,
           },
                     {
-            buttonId: `${prefix}scjojobot`,
+            buttonId: `${prefix}scbot`,
             buttonText: {
-              displayText: `ScJojoBot`,
+              displayText: `Aiamn`,
             },
             type: 1,
           },
@@ -1674,7 +1668,7 @@ ${c}• ${prefix}stcmenu${c}
           {
             buttonId: `${prefix}owner`,
             buttonText: {
-              displayText: `⋮☰ Pemilik Bot`,
+              displayText: `⋮☰ Owner Bot`,
             },
             type: 1,
           },
@@ -2578,7 +2572,7 @@ orderMessage: {
 itemCount: 99999999,
 status: 1,
 surface: 10,
-orderTitle: `Arasyaa`,
+orderTitle: `Aiman`,
 sellerJid: '0@s.whatsapp.net'
 }}}}, 0)
 }
@@ -2876,13 +2870,13 @@ case 'donat':
               reply(`◪ *DONASI*
   │
   ├─ ❏ *GOPAY*
-  ├─ ❏ 088213292687
+  ├─ ❏ 0102810046
   ├─ ❏ *OVO*
-  ├─ ❏ 088213292687
+  ├─ ❏ 0102810046
   ├─ ❏ *PULSA*
-  ├─ ❏ 081319944917
-  ├─ ❏ *INSTAGRAM*
-  └─ ❏ https://www.instagram.com/@sofunsyabi.id`)
+  ├─ ❏ 60102810046
+  ├─ ❏ *github 
+  └─ ❏  https://github.com/ai-man-123`)
 
               break
 case 'suratke': // Case Oleh Rafli
@@ -2907,7 +2901,7 @@ if (isBanned) return reply(mess.ban)
 ║╔▸   ﹝ *ISI SURAT* ﹞  
 ║╠ ${katakita2}
 ║╚▸
-╚═══ ◤ *BY MINFORMASI* ◢ `
+╚═══ ◤ *BY MINFORMASI Aiman* ◢ `
 				syaa.sendMessage(`${noorg2}@s.whatsapp.net`,pping, image , {caption: mnik, quoted: { key: {fromMe:false, participant:`${noorg2}@s.whatsapp.net`},message: { conversation: `${kataorg2}`, contextInfo: {"mentionedJid": [sender]}}}});	
 				reply('Surat Sukses Dikirim')
 				break
